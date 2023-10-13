@@ -1,0 +1,61 @@
+.page-header {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#name {
+    animation: colorChange 1s linear infinite;
+    color: black;
+}
+
+a:hover {
+    color: red
+}
+
+.personal-image {
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#web-link {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1%;
+    padding: 3%
+}
+
+
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: black
+    }
+}
